@@ -1,19 +1,25 @@
 body{
     font-family: 'Source Sans Pro', sans-serif;
+   
+
+
 
 }
+/***********NAVBAR**********/
 .navbar{
     background-color:#2b2b2b;
     color:white;
     border-radius: 0px;
     height:2em;
     padding: 10px;
-    font-size: 20px;
+    font-size: 15px;
+    margin-bottom: 0px;
     
 }
 .nav-links{
     color:white;
     margin:10px;
+
     
 }
 
@@ -21,4 +27,28 @@ body{
   text-decoration: none;
   background-color: white;
   color: black;
+}
+
+/**********HERO SECTION**********/
+.hero-section{
+    background-color:rgb(71, 69, 69);
+    
+    height: 100vh;
+    margin-top:0px;
+    padding-top: 200px;
+    
+}
+
+
+.hero-text{
+    color:white;
+    font-size: 25px;
+    font-weight: 200;
+
+    
+}
+.hero-hi{
+    font-size: 35px;
+    color:white;
+
 }
