@@ -52,10 +52,11 @@ body{
 /*portfolio section*/
 .main-portfolio-section{
     background-color:rgb(71, 69, 69);
+    height: 100%;
 
  }
 .porfolio-sec{
-    height:60vh;
+    height: 100%;
     background-color:rgb(71, 69, 69);
     color:white;
     
@@ -65,23 +66,20 @@ body{
     color:white;
 
 }
-.project-item>a{
+.project-links{
     padding:10px 15px 10px 15px;
     background-color:black;
     color:white;
     text-decoration: none;
     border-style: solid;
     border-color: black;
-    color:white;
 
 
 }
-.project-item>a:hover{
+.project-links:hover{
     border-style: solid;
     text-decoration: none;
     border-radius: 2px;
     border-color: white;
     padding:10px 15px 10px 15px;
-
-
 }
