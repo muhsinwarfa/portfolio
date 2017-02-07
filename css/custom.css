@@ -1,8 +1,6 @@
 body{
     font-family: 'Source Sans Pro', sans-serif;
-   
-
-
+    color:white;
 
 }
 /***********NAVBAR**********/
@@ -52,11 +50,38 @@ body{
 
 }
 /*portfolio section*/
+.main-portfolio-section{
+    background-color:rgb(71, 69, 69);
+
+ }
 .porfolio-sec{
     height:60vh;
-    background-color: yellow;
+    background-color:rgb(71, 69, 69);
+    color:white;
     
 }
 .project-item{
     padding:10px;
+    color:white;
+
+}
+.project-item>a{
+    padding:10px 15px 10px 15px;
+    background-color:black;
+    color:white;
+    text-decoration: none;
+    border-style: solid;
+    border-color: black;
+    color:white;
+
+
+}
+.project-item>a:hover{
+    border-style: solid;
+    text-decoration: none;
+    border-radius: 2px;
+    border-color: white;
+    padding:10px 15px 10px 15px;
+
+
 }
