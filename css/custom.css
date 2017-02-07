@@ -36,7 +36,6 @@ body{
     height: 100vh;
     margin-top:0px;
     padding-top: 200px;
-    
 }
 
 
@@ -51,4 +50,13 @@ body{
     font-size: 35px;
     color:white;
 
+}
+/*portfolio section*/
+.porfolio-sec{
+    height:60vh;
+    background-color: yellow;
+    
+}
+.project-item{
+    padding:10px;
 }
