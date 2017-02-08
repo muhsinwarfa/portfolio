@@ -7,6 +7,7 @@ span{
     background-color: blue;
 }
 /***********NAVBAR**********/
+
 .navbar{
     background-color:#2b2b2b;
     color:white;
@@ -30,12 +31,12 @@ span{
 }
 
 /**********HERO SECTION**********/
+
 .hero-section{
     background-color:rgb(71, 69, 69);
     
     height: 100vh;
-    margin-top:0px;
-    padding-top: 200px;
+    margin-top:200px;
 }
 
 
@@ -70,21 +71,24 @@ span{
 
 
 }
+#hero-row{
+    margin-top: 171px;
+}
 .main-portfolio-section{
     background-color:rgb(71, 69, 69);
-    background-color: yellow;
+    background-color: white;
 
  }
 .porfolio-sec{
     /*background-color:rgb(71, 69, 69);*/
     color:white;
-    background-color: green;
+    background-color: white;
 
 }
 .project-item{
     padding:10px;
     color:white;
-    background-color: orange;
+    background-color: white;
 
 
 }
@@ -113,5 +117,10 @@ span{
 /***********About me section***************/
 .about-me-sec{
     height:100px;
-    background-color: blue;
+    background-color: white;
+}
+/***********Contact Section***********************/
+.contact-sec{
+    /*background-color: blue;*/
+    margin-top: 136px;
 }
