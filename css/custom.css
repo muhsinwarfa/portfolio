@@ -13,12 +13,17 @@ body{
 
 /***********NAVBAR**********/
 
+.main-navbar{
+    position: fixed;
+
+}
+
 .navbar{
     background-color:#2b2b2b;
     color:white;
     border-radius: 0px;
-    height:2em;
-    padding: 10px;
+    height:4em;
+    padding-top: 10px;
     font-size: 15px;
     margin-bottom: 0px;
 }
@@ -157,14 +162,16 @@ hr.style17:after {
     background-color: white;
 }
 .about-header{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'IM Fell Double Pica', serif;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 40px;
     margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 .first-p{
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
+    padding-bottom: 20px;
 }
 /***********Contact Section***********************/
 .contact-sec{
