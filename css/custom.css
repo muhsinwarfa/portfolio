@@ -5,8 +5,8 @@ body{
 
 }
 .myphoto{
-    width: 250px;
-    height:250px;
+    width: 200px;
+    height:200px;
 
 }
 
@@ -73,10 +73,12 @@ body{
 }
 /*portfolio section*/
 .project-header{
-
+    font-family: 'IM Fell Double Pica', serif;
+    letter-spacing: 2px;
     color:black;
     font-size: 25px;
     font-weight: 800;
+    padding-bottom: 20px;
 
     
 }
@@ -123,8 +125,10 @@ body{
     text-decoration: none;
     border-style: solid;
     border-color: black;
-
-
+}
+.project-row{
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 .project-links:hover{
     border-style: solid;
@@ -132,6 +136,10 @@ body{
     border-radius: 2px;
     border-color: white;
     padding:10px 15px 10px 15px;
+    color:white;
+    background-color:rgb(71, 69, 69);
+    transition: all 0.5s ease;
+
 }
 hr.style17 {
 	border-top: 1px solid #8c8b8b;
@@ -150,10 +158,12 @@ hr.style17:after {
 }
 
 /***********About me section***************/
+
 .about-main-sec{
     height:100vh;
     background-color: white;
     margin-top:20px;
+    display: block;
 }
 
 .about-me-sec{
@@ -175,6 +185,7 @@ hr.style17:after {
 }
 /***********Contact Section***********************/
 .contact-sec{
+    clear: both;
     background-color: white;
     height:100vh;
 }
@@ -196,4 +207,10 @@ hr.style17:after {
 .social-links> a{
     color:white;
     font-size: 20px;
+}
+.social-links> a:hover{
+    color:black;
+    background-color:rgb(71, 69, 69);
+    transition: background-color 0.5s ease;
+
 }
